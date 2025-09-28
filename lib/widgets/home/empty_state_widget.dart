@@ -16,7 +16,7 @@ class EmptyStateWidget extends StatelessWidget {
           Image.asset(ImagesPaths.comeBackLaterIllustration, height: 100),
           const SizedBox(height: 16),
           Text(
-            type == SalesumType.sales ? 'No sales records found' : 'No purchase records found',
+            type == SalesumType.sales ? 'No sales records found' : 'No consumables records found',
             style: Theme.of(context).textTheme.bodyLarge,
           ),
           const SizedBox(height: 8),

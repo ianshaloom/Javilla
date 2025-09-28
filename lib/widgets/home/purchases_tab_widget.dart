@@ -20,7 +20,7 @@ class PurchasesTabWidget extends StatelessWidget {
 
     return Obx(() {
       if (purchaseController.isLoading) {
-        return const LoadingWidget(message: 'Loading purchase data...');
+        return const LoadingWidget(message: 'Loading consumables data...');
       }
 
       if (purchaseController.errorMessage.isNotEmpty) {
